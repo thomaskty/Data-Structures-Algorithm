@@ -1,5 +1,8 @@
 
-for i in range(1,4):
-    for j in range(i-1,-1,-1):
-        print(j,end=',')
-    print('\n')
+def selection_sort(a):
+    for i in range(len(a)):
+        min_index = i 
+        for j in range(i,len(a)):
+            if a[j]>a[i]:
+                min_index = i 
+        a[i],a[min_index] = a[]
