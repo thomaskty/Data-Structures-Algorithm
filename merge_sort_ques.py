@@ -1,4 +1,3 @@
-
 # leet code problem 
 def merge(nums1:list[int], m:int, nums2:list[int], n:int):
     # Initialize pointers for nums1 and nums2

@@ -14,7 +14,7 @@ def binary_search(ar,value,start,end):
 
 
 # binary search while loop implementation  
-def binary_search(ar,value):
+def binary_search_while(ar,value):
     start,end = 0,len(ar)-1
     while start<=end:
         mid = int((start+end)/2)

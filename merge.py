@@ -32,6 +32,6 @@ def merge(left,right):
         print(final_array)
         
     
-left = [4,4,5,9]
+left = [4,5,9]
 right = [8,9,12,20]
 merge(left,right)

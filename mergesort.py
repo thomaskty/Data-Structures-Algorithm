@@ -4,6 +4,9 @@ def mergeSort(myList):
         left = myList[:mid]
         right = myList[mid:]
 
+        print(left)
+        print(right)
+
         # Recursive call on each half
         mergeSort(left)
         mergeSort(right)
@@ -15,7 +18,7 @@ def mergeSort(myList):
         # Iterator for the main list
         k = 0
 
-        while i < len(left) and j < len(right):
+        while i < len(left) and j < len(right):       
             if left[i] <= right[j]:
               # The value from the left half has been used
               myList[k] = left[i]
@@ -41,5 +44,6 @@ def mergeSort(myList):
         print(myList)
             
 myList = [54,26,93,17,77,31,44,55,20]
+print(myList)
 mergeSort(myList)
 print(myList)
