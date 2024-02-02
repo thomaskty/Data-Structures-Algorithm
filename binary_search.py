@@ -93,11 +93,3 @@ def circular_search(ar,n,x):
                 else:
                     low = mid+1
         return -1
-
-
-
-avph_hl_cnt>0 or avph_bpl_cnt>0 then 1 else 0 end as property_loan 
-avph_hp_cnt>0  then hire_purchase 
-avph_cc_cnt > 0 then credit card 
-avph_pf_cnt> 0 then personal_financing 
- 
