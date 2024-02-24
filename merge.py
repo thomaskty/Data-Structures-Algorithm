@@ -1,11 +1,7 @@
 
-# [4,4,5,9]
-# [8,9,12,20,2]
-
 def merge(left,right):
     total_len = len(left)+len(right)
     final_array = list(range(total_len))
-
     i = 0 
     j = 0
     k = 0
