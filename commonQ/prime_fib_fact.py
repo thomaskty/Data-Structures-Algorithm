@@ -3,6 +3,16 @@
 # definition of prime : a whole number greater than 1 that 
 # cannot be exactly divided by any whole number other than itself and 1
 
+def prime(value):
+    prime = True
+    check_list = list(range(2,value//2+1))
+    print(check_list)
+    for i in check_list:
+        if value%i==0:
+            prime = False
+            break
+    return prime
+
 def isprime(n):
     prime = True
     if n>1:
