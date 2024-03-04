@@ -26,3 +26,12 @@ def prime(number):
     pass 
 
 
+def binary_search(array,value,start,end):
+    middle  = int((start+end)/2)
+    if value==array[middle]:
+        return middle
+    elif value>array[middle]:
+        binary_search(array,value,middle,end)
+    else:
+        binary_search(array,value,start,middle)
+    
