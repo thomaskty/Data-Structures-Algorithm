@@ -19,7 +19,3 @@ def move_zeros(ar):
 
 ar = [0,1,0,0,87,89,9,0,0,7,6,45,0,3,0]
 move_zeros(ar)
-
-
-
-
