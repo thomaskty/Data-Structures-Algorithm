@@ -59,36 +59,3 @@ for i in range(0,50):
     if is_prime(i,i-1):
         print(i,end=',')
 
-print('\n')
-
-# find factorial of a given number 
-def factorial(n):
-    output = 1
-    for i in range(1,n+1):
-        output*=i
-    return output
-
-print('printing factorial of numbers from 0 to 10')
-for i in range(10):
-    print(i,factorial(i))
-
-# fibanocci series as output at a given n 
-# if n = 0, output = 0 
-# if n = 1, output = 1 
-# if n = 2, output = 1
-# if n = 3, output = 2
-# if n = 4, output = 3
-
-# [0,1,2,3,4] : inputs 
-# [0,1,1,2,3] : output
-
-
-def fibanacci(n):
-    if n<=2:
-        return 1
-    else:
-        return fibanacci(n-1)+fibanacci(n-2)
-print('printing fibanacci values of indexes from 0 to 10')
-for i in range(10):
-    print(i,fibanacci(i))
-    
